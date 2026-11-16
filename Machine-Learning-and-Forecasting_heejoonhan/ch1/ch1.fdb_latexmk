@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1794558045.92222 "c:/Users/Awesomemin/Desktop/TIL/Machine-Learning-and-Forecasting_heejoonhan/ch1/ch1.tex" "ch1.pdf" "ch1" 1794558050.80327 0
-  "c:/Users/Awesomemin/Desktop/TIL/Machine-Learning-and-Forecasting_heejoonhan/ch1/ch1.tex" 1794558043 9776 677369336840b977e1a6282cb80c8a81 ""
+["pdflatex"] 1794806617.43905 "c:/Users/Awesomemin/Desktop/TIL/Machine-Learning-and-Forecasting_heejoonhan/ch1/ch1.tex" "ch1.pdf" "ch1" 1794806622.3974 0
+  "c:/Users/Awesomemin/Desktop/TIL/Machine-Learning-and-Forecasting_heejoonhan/ch1/ch1.tex" 1794806610 11203 610f445c01042e2e2f6eb608ab1650a7 ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1793026515 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1793027784 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1793027284 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -79,6 +79,7 @@
   "c:/texlive/2026/texmf-dist/fonts/tfm/public/nanumtype1/nanummjmd4.tfm" 1793030414 1256 40f76b39d88f6d1bdc1016620e8e198b ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/public/nanumtype1/nanummjmd5.tfm" 1793030414 1248 528122c0ec5b8fe37c5f9a68d4591379 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/public/nanumtype1/nanummjmd6.tfm" 1793030414 1256 7f40e67a93382186df75e8e2b7098d53 ""
+  "c:/texlive/2026/texmf-dist/fonts/tfm/public/nanumtype1/nanummjmd7.tfm" 1793030414 880 c8f4f02efbb915a390350590022001e9 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/public/nanumtype1/nanummjmoac.tfm" 1793030414 1436 19dfc627e0820e510d1a09fa2183ffb9 ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/public/nanumtype1/nanummjmoad.tfm" 1793030414 1504 9e774064bd9b540d7e012ba92eb95faa ""
   "c:/texlive/2026/texmf-dist/fonts/tfm/public/nanumtype1/nanummjmoae.tfm" 1793030414 1484 db887e2a1330325164ee2e7505757bdd ""
@@ -182,6 +183,7 @@
   "c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4.pfb" 1793030416 202710 0ad886fa64cd43d7822a72c18bf38099 ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb" 1793030416 180221 abec42c102a26dbcc461fb4cfef50d74 ""
   "c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb" 1793030420 193800 53dc0c5e2ba52b3d5ccb3be10da5bf41 ""
+  "c:/texlive/2026/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb" 1793030420 119106 f4ecdae0aec745a283c90b86be50f0f0 ""
   "c:/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1793030267 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "c:/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty" 1793028500 7984 7dbb9280f03c0a315425f1b4f35d43ee ""
   "c:/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty" 1793028500 1057 525c2192b5febbd8c1f662c9468335bb ""
@@ -250,8 +252,8 @@
   "c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1793040012 5686502 d549d251282c1bd478c10460df8057e9 ""
   "c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1793045891 3668393 a80653b4b90f4f10db27a87935e9babe ""
   "c:/texlive/2026/texmf.cnf" 1793039947 713 e69b156964470283e0530f5060668171 ""
-  "ch1.aux" 1794558048 680 bf6ac02c3ebf8f6621cb034b87b2d30f "pdflatex"
-  "ch1.tex" 1794558043 9776 677369336840b977e1a6282cb80c8a81 ""
+  "ch1.aux" 1794806620 680 bf6ac02c3ebf8f6621cb034b87b2d30f "pdflatex"
+  "ch1.tex" 1794806610 11203 610f445c01042e2e2f6eb608ab1650a7 ""
   (generated)
   "ch1.aux"
   "ch1.log"

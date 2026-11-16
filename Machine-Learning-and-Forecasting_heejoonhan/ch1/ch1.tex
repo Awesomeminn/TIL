@@ -157,16 +157,33 @@ y_{t} &= \alpha + y_{t-1} + \varepsilon_t\\
       &= y_0 + t\alpha + \sum_{j=1}^{t}\varepsilon_j  
 \end{aligned}  
 \end{equation}
-이 때, $E(y_t) = E(y_0) + t\alpha$, $var(y_t) = t\sigma^2$가 되므로, 평균과 분산이 둘 다 $t$에 의존하게 된다.
-
-
-
-
-
-
-
-
-
+이 때, $E(y_t) = E(y_0) + t\alpha$, $var(y_t) = t\sigma^2$가 되므로, 평균과 분산이 둘 다 $t$에 의존하게 된다.\\
+\textbf{case 2) $|\beta| > 1$}\\
+\begin{equation}
+\begin{aligned}
+y_t &= \alpha + \beta y_{t-1} + \varepsilon_t\\
+    &= \alpha + \beta(\alpha + \beta y_{t-2} + \varepsilon_{t-1}) + \varepsilon_t\\ 
+    &= (\alpha + \beta\alpha) + \beta^{2}y_{t-2} + \varepsilon_{t} + \beta\varepsilon_{t-1}\\
+    &= \vdots\\
+    &= (\alpha + \beta\alpha + \cdots + \beta^{t-1}\alpha) + \beta^{t} y_{0} + \sum_{j=0}^{t-1}\beta^{j}\varepsilon_{t-j}\\
+    &= \alpha\sum_{j=0}^{t-1}\beta^{j} + \beta^{t} y_{0} + \sum_{j=0}^{t-1}\beta^{j}\varepsilon_{t-j}
+\end{aligned}  
+\end{equation}
+AR(1) 과정 $\{y_t\}$을 식 (7)과 같이 전개하였을 때, 평균과 분산, 자기공분산은 다음과 같이 도출된다.\footnote{초기값 $y_0$은 일정한 상수로 가정한다.}\\
+\begin{equation}
+\begin{aligned}
+E(y_{t}) &= \alpha\sum_{j=0}^{t-1}\beta^{j} + \beta^{t} y_{0}\\
+         &= \frac{\alpha(1-\beta^{t})}{1-\beta} + \beta^{t} y_{0}  
+\end{aligned}    
+\end{equation}
+여기서 $|\beta| > 1$이면 $\beta^t$의 값이 무한히 증가하므로, 평균이 시간에 따라 발산한다.
+\begin{equation}
+\begin{aligned}
+var(y_t) &= \sum_{j=0}^{t-1}\beta^{2j}var(\varepsilon_{t-j})\\
+         &= \sigma^2\sum_{j=0}^{t-1}\beta^{2j}
+\end{aligned}    
+\end{equation}
+따라서 $var(y_t) = \sigma^2 \frac{1-\beta^{2t}}{1-\beta^2}$이다. 즉, 분산도 시간에 따라 일정하게 유지되지 못하는 것을 알 수 있다.
 
 
 
